@@ -1,0 +1,38 @@
+.post-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .post-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .post-type-selector {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .radio-option {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .post-content {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

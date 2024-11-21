@@ -1,0 +1,85 @@
+.pricing-plans-container {
+    background: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  .plans-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .plans-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .plan-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .plan-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plan-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .plan-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .plan-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .select-plan-btn {
+    background: #FF7E5F;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .select-plan-btn:hover {
+    background-color: #feb47b;
+  }
+  
+  .free-plan-card {
+    background: #6dbf61; /* Green for Free Plan */
+  }
+  
+  .premium-plan-card {
+    background: #f76b8a; /* Pink for Premium Plan */
+  }
+  
+  @media (max-width: 768px) {
+    .plans-cards {
+      flex-direction: column;
+    }
+  }
+  
